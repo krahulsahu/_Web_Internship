@@ -1,0 +1,76 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+} 
+.mains{
+    margin: 5rem auto ;
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+
+}
+.tital{
+    margin-bottom: 2.5rem;
+}
+.text-center{
+background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    padding: 3rem;
+    border: .2rem solid rgb(0, 242, 255);
+       font-size: 1.5rem;
+}
+.text-center:hover{
+    box-shadow: 0 0 3rem rgb(0, 225, 255);
+}
+
+
+.temSelect{
+        width: 100%;
+        font-size: 2rem;
+        /* columns: #fff; */
+        /* background: #323946; */
+        border-radius: .8rem;
+        margin: .7rem 0;
+
+}
+.temSelect input{
+    width: 49%;
+    height: 2.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background: #323946;
+    border: .2rem double rgb(5, 240, 244);
+
+}
+.temSelect select{
+    width: 30%;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+    background: rgb(32, 59, 61);
+    color: #fff;
+    border: .1rem dashed  rgba(6, 224, 227, 0.614);
+}
+
+.submit-btn{
+    margin: .5rem;
+    text-align: center;
+    padding: .5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: .24rem solid rgb(0, 255, 213);
+    border-radius:  1.2rem;
+    background: blue;
+}
+.submit-btn:hover{
+box-shadow: 0 0 2rem rgb(0, 255, 98);
+}
+
+

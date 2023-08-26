@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+    background: #1f242a;
+    color: #fff;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100% ;
+    padding: 2rem 10%;
+    background:#1f242a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+
+}
+.logo{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: default;
+}
+.navbar a {
+    font-size: 1.7rem;
+    color: #fff;
+    margin-left: 4rem;
+}
+.navbar a:hover,
+.navbar a.hom{
+    color: rgb(132, 0, 255) ;
+}
+section{
+    min-height: 100vh;
+    padding: 8rem 9% 2rem;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.intro h1{
+    font-size: 5rem;
+    font-weight: 750;
+    line-height: 1.5.;
+}
+span{
+    color: rgb(132, 0, 255);
+}
+.intro p {
+    width: 70%;
+    font-size: 1.5rem;
+    text-align: left    ;
+
+}
+.profileimg img{
+    width: 40vh;
+    background: rgb(132, 0, 255);
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    box-shadow: 0 0 1.5rem rgb(255, 0, 0);
+
+}
+.socialmedia a{ 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    border: .2rem solid rgb(39, 20, 20);
+    font-size: 3rem;
+    color: rgb(132, 0, 255);
+    margin: 2rem 1.5rem 3rem 0 ;
+}
+
+.socialmedia a:hover{
+    background: #0cbbde;
+    columns: #323946;
+    box-shadow: 0 0 1.5rem rgb(0, 255, 242);
+}
+.cv{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: rgb(132, 0, 255);
+    border-radius: 4rem;
+    box-shadow: 0 0 1.3rem rgb(132, 0, 255);
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 650;
+    letter-spacing: 0.07rem;
+}
+.cv:hover{
+    box-shadow: 0 0 1.5rem #00eaff;
+}
+
+.hr-line{
+    border: 1px solid red;
+    padding-bottom: 0;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img img{
+    width: 35vh;
+}
+.about-me{
+        padding-left: 10rem;
+      
+
+}
+
+.about-me h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+
+} 
+.about-me h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+span {
+    color: rgb(132, 0, 255);
+}
+
+.about-me p {
+            font-size: 1.5rem;
+            text-align: left; 
+}
+.more{
+            display: inline-block;
+            padding: 1rem 2.8rem;
+            background: rgb(132, 0, 255);
+            border-radius: 4rem;
+            box-shadow: 0 0 2.5rem rgb(132, 0, 255);
+            color: #fff;
+            font-size: 2rem;
+            font-weight: 650;
+            letter-spacing: 0.07rem;
+            margin: 2rem;
+}
+.more:hover{
+    color: rgb(242, 255, 0);
+    box-shadow: none;
+}
+
+/* my skill */
+.skill h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.skill-containt{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 2rem;
+}
+
+.skill-box{
+    flex: 1 1 1rem;
+    background: #424e65;
+    padding: 3rem 2rem 4rem;
+    background-repeat: 2rem;
+    /* text-align: center; */
+    border: .2rem solid rgb(132, 0, 255);
+    box-shadow: 0 0 1.5rem rgb(132, 0, 255);
+
+}
+.skill-box:hover{
+    border: .3rem dotted rgb(0, 255, 238);
+    transform: scale(1.08);
+
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    margin: 1rem 1rem 2.3rem 0rem;
+    border-radius: 2rem;
+}
+
+.skills {
+    text-align: right;
+    color: white;
+    border-radius: 2rem;
+}
+
+.html {
+    width: 85%;
+    background-color: #ff4400;
+}
+
+.css {
+    width: 90%;
+    background-color: #00ff6a;
+}
+
+.script {
+    width: 60%;
+    background-color: #09eaea;
+}
+
+.react {
+    width: 30%;
+    background-color: #1534e4;
+} 
+.skilltypes{
+    font-size: 2rem;
+    font-style: italic;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.skill-box h3{
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.07rem;
+    
+}
+
+.project-heading {
+    font-size: 3.2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.project h2{
+    margin-bottom: 4rem;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 2.3rem;
+}
+.project-container .project-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgb(132, 0, 255);
+    overflow: hidden;
+    display: flex;
+
+
+}
+.project-box img{
+    width: 100%;
+    transition: .5s ease;
+
+}
+.project-box:hover img {
+   transform: scale(1.1);
+
+}
+
+ .project-box .project_layout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.1),rgb(132, 0, 255)) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 2rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.project-box:hover .project_layout{
+    transform: translateY(0);
+
+}
+
+.project_layout h4{
+    font-size: 2rem;
+
+}
+.project_layout p{
+    font-size:1.2rem ;
+    margin: .2rem 0 .7rem;
+    /* color: darkblue; */
+}
+
+.project_layout a{
+    display:  inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: #fff;  
+    border-radius:  50%;
+
+}
+/* second bg #323946 */
+/* main color rgb(132, 0, 255) */
+
+.project_layout a i{
+    font-size:1.5rem ;
+    columns: #323946 ;
+}
+.heading{
+        font-size: 3.2rem;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem;
+}
+
+.contact h2{
+    margin-bottom: 2rem;
+}
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto ;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    font-size: 2rem;
+    columns: #fff;
+    background: #323946;
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+.contact form .input-box input{
+    width: 49%;
+}
+.contact form textarea{
+    resize: vertical;
+}
+.btn{
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+.footering{
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+.footering a{
+    color: #ff0000;
+}
+
+
