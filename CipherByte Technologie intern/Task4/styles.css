@@ -1,0 +1,86 @@
+body {
+    background: #000;
+    color: rgb(248, 248, 248);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: url("https://source.unsplash.com/720x600/?dark,laptop,black") no-repeat center;
+    max-width: 80vh;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px solid #ffff0d;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.3rem;
+}
+
+h1 {
+    color: rgb(5, 255, 251);
+    text-align: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li label {
+    padding-left: 10px;
+    flex-grow: 1;
+}
+.work{
+    display: flex;
+}
+
+#taskInput{
+        color: #ffffff;
+        background: #000;
+         width: 79%; 
+        padding: 4px;
+        padding-right: 0%;
+        font-size: 2rem;
+       border: 2px double rgb(255, 255, 255);
+        box-shadow: 0 0 1rem rgb(5, 5, 5);
+        text-align: center;
+        cursor: pointer; 
+        font-weight: 550;
+}
+#addTaskBtn{
+    color: #ffffff;
+    background: #03a5b7;
+    border: 2px double rgb(255, 255, 255);
+    padding: 4px;
+    font-size: 1.5rem;
+transition: all .3s ease;
+       
+}
+#addTaskBtn:hover{
+    background: #2bd7eb;
+    box-shadow: 0 0 5px white;
+    animation: pulsate 1s ease-in-out;
+
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #ec5638;
+}
+.removeBtn{
+    background: #000;
+    color: #f1c9c9;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+.removeBtn:hover {
+    background: #2bd7eb;
+    box-shadow: 0 0 5px white;
+}
